@@ -32,7 +32,7 @@
     layout(size => {
       let container-width = size.width
       let container-height = size.height
-      let line-height = 1em.to-absolute()
+      let line-height = .5em.to-absolute() + par.leading.to-absolute()
       let gutter = resolve-length(gutter, max: container-width)
       let shift = resolve-length(shift, max: container-height)
       let column-width = { (container-width - (n - 1) * gutter) / n }
