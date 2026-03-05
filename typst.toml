@@ -1,0 +1,11 @@
+[package]
+name = "eqcols"
+version = "0.0.1"
+entrypoint = "src/export.typ"
+authors = ["pacaunt <@pacaunt>"]
+license = "MIT"
+compiler = "0.13.0"
+repository = "https://github.com/pacaunt/typst-eqcols"
+description = "An attempt for balancing columns"
+keywords = ["columns", "balancing", "balance"]
+categories = ["utility", "layout", "model"]
